@@ -6,7 +6,12 @@ type HeaderProps = {
 
 export const Header: FC<HeaderProps> = ({ year }) => {
   const currentYear = new Date().getFullYear()
-  const yearOptions = Array.from({ length: 21 }, (_, i) => currentYear - 10 + i)
+  const baseYears = Array.from({ length: 21 }, (_, i) => currentYear - 10 + i)
+
+  // Include the page year if it's not already in the list
+  const yearOptions = baseYears.includes(year)
+    ? baseYears
+    : [...baseYears, year].sort((a, b) => a - b)
 
   return (
     <header class="flex items-center justify-center gap-4 mb-8">
