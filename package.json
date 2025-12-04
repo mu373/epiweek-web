@@ -1,0 +1,25 @@
+{
+  "name": "epiweek-web",
+  "version": "1.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@hono/swagger-ui": "^0.5.2",
+    "@hono/zod-openapi": "^1.1.5",
+    "@mu373/epiweek": "^2.0.1",
+    "hono": "^4.6.12",
+    "luxon": "^3.7.2",
+    "tsx": "^4.21.0"
+  },
+  "devDependencies": {
+    "@hono/vite-dev-server": "^0.18.3",
+    "@types/luxon": "^3.7.1",
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2",
+    "vercel": "^39.2.2",
+    "vite": "^6.0.3"
+  }
+}
