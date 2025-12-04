@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build && pnpm build:static",
+    "build:static": "tsx scripts/build-static.ts"
   },
   "dependencies": {
     "@hono/swagger-ui": "^0.5.2",

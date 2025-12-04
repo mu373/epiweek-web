@@ -4,14 +4,16 @@ import devServer from '@hono/vite-dev-server'
 export default defineConfig({
   plugins: [
     devServer({
-      entry: 'src/app.tsx',
+      entry: 'src/dev.tsx',
     }),
   ],
   build: {
     lib: {
-      entry: 'src/app.tsx',
+      entry: {
+        api: 'src/api.tsx',
+        app: 'src/app.tsx',
+      },
       formats: ['es'],
-      fileName: 'app',
     },
     rollupOptions: {
       external: ['hono', '@hono/zod-openapi', '@hono/swagger-ui', '@mu373/epiweek', 'luxon'],
