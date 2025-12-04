@@ -13,6 +13,5 @@
       "src": "/(\\d{4})",
       "dest": "/api/[year]"
     }
-  ],
-  "cleanUrls": true
+  ]
 }
