@@ -10,6 +10,28 @@ https://epiweek.vercel.app/
 - REST API for date/epiweek conversions
 - OpenAPI documentation with Swagger UI
 - Epiweek calculations powered by [@mu373/epiweek](https://github.com/mu373/epiweek), fully validated against Python's [dralshehri/epiweeks](https://github.com/dralshehri/epiweeks) implementation
+- Hybrid SSG + Serverless architecture for optimal performance
+
+## Architecture
+
+The calendar uses a hybrid Static Site Generation (SSG) + serverless architecture for optimal performance:
+
+### Static Pages
+- Pre-generated at build time: years 2015-2035 (21 years ±10 from current year)
+- Served directly from Vercel's CDN
+- No cold start, instant page loads
+
+### Serverless Fallback (Dynamic Rendering)
+- Years outside the pre-generated range (e.g., 1990, 2055) are rendered on-demand
+- Uses Vercel serverless functions with Hono
+- Ensures all years (1900-2100) remain accessible
+
+### Smart Routing
+Vercel routing configuration automatically:
+1. Serves static files for pre-generated years (2015-2035)
+2. Falls back to serverless rendering for other years
+3. Routes all `/api/*` requests to the REST API serverless function
+
 
 ## API Documentation
 
