@@ -11,7 +11,7 @@
     "@hono/swagger-ui": "^0.5.2",
     "@hono/zod-openapi": "^1.1.5",
     "@mu373/epiweek": "^2.0.1",
-    "hono": "^4.6.12",
+    "hono": "^4.11.7",
     "luxon": "^3.7.2",
     "tsx": "^4.21.0"
   },

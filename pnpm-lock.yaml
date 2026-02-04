@@ -10,16 +10,16 @@ importers:
     dependencies:
       '@hono/swagger-ui':
         specifier: ^0.5.2
-        version: 0.5.2(hono@4.10.7)
+        version: 0.5.2(hono@4.11.7)
       '@hono/zod-openapi':
         specifier: ^1.1.5
-        version: 1.1.5(hono@4.10.7)(zod@4.1.13)
+        version: 1.1.5(hono@4.11.7)(zod@4.1.13)
       '@mu373/epiweek':
         specifier: ^2.0.1
         version: 2.0.1
       hono:
-        specifier: ^4.6.12
-        version: 4.10.7
+        specifier: ^4.11.7
+        version: 4.11.7
       luxon:
         specifier: ^3.7.2
         version: 3.7.2
@@ -29,7 +29,7 @@ importers:
     devDependencies:
       '@hono/vite-dev-server':
         specifier: ^0.18.3
-        version: 0.18.3(hono@4.10.7)
+        version: 0.18.3(hono@4.11.7)
       '@types/luxon':
         specifier: ^3.7.1
         version: 3.7.1
@@ -817,8 +817,8 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  diff@4.0.2:
-    resolution: {integrity: sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==}
+  diff@4.0.4:
+    resolution: {integrity: sha512-X07nttJQkwkfKfvTPG/KSnE2OMdcUCao6+eXF3wmnIQRn2aPAHH3VxDbDOdegkd6JbPsXqShpvEOHfAT+nCNwQ==}
     engines: {node: '>=0.3.1'}
 
   edge-runtime@2.5.9:
@@ -1064,8 +1064,8 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
-  hono@4.10.7:
-    resolution: {integrity: sha512-icXIITfw/07Q88nLSkB9aiUrd8rYzSweK681Kjo/TSggaGbOX4RRyxxm71v+3PC8C/j+4rlxGeoTRxQDkaJkUw==}
+  hono@4.11.7:
+    resolution: {integrity: sha512-l7qMiNee7t82bH3SeyUCt9UF15EVmaBvsppY2zQtrbIhl/yzBTny+YUxsVjSjQ6gaqaeVtZmGocom8TzBlA4Yw==}
     engines: {node: '>=16.9.0'}
 
   http-errors@1.4.0:
@@ -1825,31 +1825,31 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@hono/node-server@1.19.6(hono@4.10.7)':
+  '@hono/node-server@1.19.6(hono@4.11.7)':
     dependencies:
-      hono: 4.10.7
+      hono: 4.11.7
 
-  '@hono/swagger-ui@0.5.2(hono@4.10.7)':
+  '@hono/swagger-ui@0.5.2(hono@4.11.7)':
     dependencies:
-      hono: 4.10.7
+      hono: 4.11.7
 
-  '@hono/vite-dev-server@0.18.3(hono@4.10.7)':
+  '@hono/vite-dev-server@0.18.3(hono@4.11.7)':
     dependencies:
-      '@hono/node-server': 1.19.6(hono@4.10.7)
-      hono: 4.10.7
+      '@hono/node-server': 1.19.6(hono@4.11.7)
+      hono: 4.11.7
       minimatch: 9.0.5
 
-  '@hono/zod-openapi@1.1.5(hono@4.10.7)(zod@4.1.13)':
+  '@hono/zod-openapi@1.1.5(hono@4.11.7)(zod@4.1.13)':
     dependencies:
       '@asteasolutions/zod-to-openapi': 8.1.0(zod@4.1.13)
-      '@hono/zod-validator': 0.7.5(hono@4.10.7)(zod@4.1.13)
-      hono: 4.10.7
+      '@hono/zod-validator': 0.7.5(hono@4.11.7)(zod@4.1.13)
+      hono: 4.11.7
       openapi3-ts: 4.5.0
       zod: 4.1.13
 
-  '@hono/zod-validator@0.7.5(hono@4.10.7)(zod@4.1.13)':
+  '@hono/zod-validator@0.7.5(hono@4.11.7)(zod@4.1.13)':
     dependencies:
-      hono: 4.10.7
+      hono: 4.11.7
       zod: 4.1.13
 
   '@isaacs/fs-minipass@4.0.1':
@@ -2262,7 +2262,7 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  diff@4.0.2: {}
+  diff@4.0.4: {}
 
   edge-runtime@2.5.9:
     dependencies:
@@ -2527,7 +2527,7 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  hono@4.10.7: {}
+  hono@4.11.7: {}
 
   http-errors@1.4.0:
     dependencies:
@@ -2910,7 +2910,7 @@ snapshots:
       acorn-walk: 8.3.4
       arg: 4.1.3
       create-require: 1.1.1
-      diff: 4.0.2
+      diff: 4.0.4
       make-error: 1.3.6
       typescript: 4.9.5
       v8-compile-cache-lib: 3.0.1
