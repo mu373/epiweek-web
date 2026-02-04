@@ -18,7 +18,7 @@
   "devDependencies": {
     "@hono/vite-dev-server": "^0.18.3",
     "@types/luxon": "^3.7.1",
-    "@types/node": "^22.10.1",
+    "@types/node": "^25.2.0",
     "typescript": "^5.7.2",
     "vercel": "^39.2.2",
     "vite": "^6.0.3"
