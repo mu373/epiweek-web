@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@hono/swagger-ui": "^0.5.2",
-    "@hono/zod-openapi": "^1.1.5",
+    "@hono/zod-openapi": "^1.2.1",
     "@mu373/epiweek": "^2.0.1",
     "hono": "^4.6.12",
     "luxon": "^3.7.2",
