@@ -28,8 +28,8 @@ importers:
         version: 4.21.0
     devDependencies:
       '@hono/vite-dev-server':
-        specifier: ^0.18.3
-        version: 0.18.3(hono@4.10.7)
+        specifier: ^0.25.0
+        version: 0.25.0(hono@4.10.7)
       '@types/luxon':
         specifier: ^3.7.1
         version: 3.7.1
@@ -393,8 +393,8 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@hono/node-server@1.19.6':
-    resolution: {integrity: sha512-Shz/KjlIeAhfiuE93NDKVdZ7HdBVLQAfdbaXEaoAVO3ic9ibRSLGIQGkcBbFyuLr+7/1D5ZCINM8B+6IvXeMtw==}
+  '@hono/node-server@1.19.9':
+    resolution: {integrity: sha512-vHL6w3ecZsky+8P5MD+eFfaGTyCeOHUIFYMGpQGbrBTSmNNoxv0if69rEZ5giu36weC5saFuznL411gRX7bJDw==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: ^4
@@ -404,8 +404,8 @@ packages:
     peerDependencies:
       hono: '*'
 
-  '@hono/vite-dev-server@0.18.3':
-    resolution: {integrity: sha512-JztypLmq6qtQ3OAcz5vDzwXYBBymLztSbfDuNf4XTWkfppLjf6DHvYHtQZ5idOfNhUzdnbYY7/6QAKlVk6G3QQ==}
+  '@hono/vite-dev-server@0.25.0':
+    resolution: {integrity: sha512-4j5rs7yUTOObU2/yCEHeWbf3C8m95SD9lhdUUE6CJ462Emp9vS94yiza2dsA8+ly5pdaIQW0cd4nhNVcwYL5tA==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'
@@ -1825,7 +1825,7 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@hono/node-server@1.19.6(hono@4.10.7)':
+  '@hono/node-server@1.19.9(hono@4.10.7)':
     dependencies:
       hono: 4.10.7
 
@@ -1833,9 +1833,9 @@ snapshots:
     dependencies:
       hono: 4.10.7
 
-  '@hono/vite-dev-server@0.18.3(hono@4.10.7)':
+  '@hono/vite-dev-server@0.25.0(hono@4.10.7)':
     dependencies:
-      '@hono/node-server': 1.19.6(hono@4.10.7)
+      '@hono/node-server': 1.19.9(hono@4.10.7)
       hono: 4.10.7
       minimatch: 9.0.5
 
