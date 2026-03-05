@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@hono/swagger-ui':
-        specifier: ^0.5.2
-        version: 0.5.2(hono@4.10.7)
+        specifier: ^0.6.0
+        version: 0.6.0(hono@4.10.7)
       '@hono/zod-openapi':
         specifier: ^1.2.1
         version: 1.2.1(hono@4.10.7)(zod@4.1.13)
@@ -408,10 +408,10 @@ packages:
     peerDependencies:
       hono: ^4
 
-  '@hono/swagger-ui@0.5.2':
-    resolution: {integrity: sha512-7wxLKdb8h7JTdZ+K8DJNE3KXQMIpJejkBTQjrYlUWF28Z1PGOKw6kUykARe5NTfueIN37jbyG/sBYsbzXzG53A==}
+  '@hono/swagger-ui@0.6.0':
+    resolution: {integrity: sha512-xl2D/0TEi3oG/uoiKA/yLfb3zUw6zweS9NY5+eIxgu506on5g9T8omeJyHeJnCM+RZgoydTR+w7nnFOpEoYIiQ==}
     peerDependencies:
-      hono: '*'
+      hono: '>=4.0.0'
 
   '@hono/vite-dev-server@0.25.0':
     resolution: {integrity: sha512-4j5rs7yUTOObU2/yCEHeWbf3C8m95SD9lhdUUE6CJ462Emp9vS94yiza2dsA8+ly5pdaIQW0cd4nhNVcwYL5tA==}
@@ -1694,6 +1694,7 @@ packages:
   tar@7.5.7:
     resolution: {integrity: sha512-fov56fJiRuThVFXD6o6/Q354S7pnWMJIVlDBYijsTNx6jKSE4pvrDTs6lUnmGvNyfJwFQQwWy3owKz1ucIhveQ==}
     engines: {node: '>=18'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   throttleit@2.1.0:
     resolution: {integrity: sha512-nt6AMGKW1p/70DF/hGBdJB57B8Tspmbp5gfJ8ilhLnt7kkr2ye7hzD6NVG8GGErk2HWF34igrL2CXmNIkzKqKw==}
@@ -2098,7 +2099,7 @@ snapshots:
     dependencies:
       hono: 4.10.7
 
-  '@hono/swagger-ui@0.5.2(hono@4.10.7)':
+  '@hono/swagger-ui@0.6.0(hono@4.10.7)':
     dependencies:
       hono: 4.10.7
 
