@@ -20,7 +20,7 @@
     "@types/luxon": "^3.7.1",
     "@types/node": "^25.2.0",
     "typescript": "^5.7.2",
-    "vercel": "^50.10.2",
+    "vercel": "^50.34.2",
     "vite": "^6.0.3"
   }
 }
