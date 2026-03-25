@@ -10,16 +10,16 @@ importers:
     dependencies:
       '@hono/swagger-ui':
         specifier: ^0.5.2
-        version: 0.5.2(hono@4.12.7)
+        version: 0.5.2(hono@4.12.9)
       '@hono/zod-openapi':
         specifier: ^1.2.1
-        version: 1.2.1(hono@4.12.7)(zod@4.1.13)
+        version: 1.2.1(hono@4.12.9)(zod@4.1.13)
       '@mu373/epiweek':
         specifier: ^2.0.1
         version: 2.0.1
       hono:
-        specifier: ^4.12.7
-        version: 4.12.7
+        specifier: ^4.12.9
+        version: 4.12.9
       luxon:
         specifier: ^3.7.2
         version: 3.7.2
@@ -29,7 +29,7 @@ importers:
     devDependencies:
       '@hono/vite-dev-server':
         specifier: ^0.25.0
-        version: 0.25.0(hono@4.12.7)
+        version: 0.25.0(hono@4.12.9)
       '@types/luxon':
         specifier: ^3.7.1
         version: 3.7.1
@@ -1296,8 +1296,8 @@ packages:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
 
-  hono@4.12.7:
-    resolution: {integrity: sha512-jq9l1DM0zVIvsm3lv9Nw9nlJnMNPOcAtsbsgiUhWcFzPE99Gvo6yRTlszSLLYacMeQ6quHD6hMfId8crVHvexw==}
+  hono@4.12.9:
+    resolution: {integrity: sha512-wy3T8Zm2bsEvxKZM5w21VdHDDcwVS1yUFFY6i8UobSsKfFceT7TOwhbhfKsDyx7tYQlmRM5FLpIuYvNFyjctiA==}
     engines: {node: '>=16.9.0'}
 
   http-errors@1.7.3:
@@ -2110,31 +2110,31 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@hono/node-server@1.19.11(hono@4.12.7)':
+  '@hono/node-server@1.19.11(hono@4.12.9)':
     dependencies:
-      hono: 4.12.7
+      hono: 4.12.9
 
-  '@hono/swagger-ui@0.5.2(hono@4.12.7)':
+  '@hono/swagger-ui@0.5.2(hono@4.12.9)':
     dependencies:
-      hono: 4.12.7
+      hono: 4.12.9
 
-  '@hono/vite-dev-server@0.25.0(hono@4.12.7)':
+  '@hono/vite-dev-server@0.25.0(hono@4.12.9)':
     dependencies:
-      '@hono/node-server': 1.19.11(hono@4.12.7)
-      hono: 4.12.7
+      '@hono/node-server': 1.19.11(hono@4.12.9)
+      hono: 4.12.9
       minimatch: 9.0.9
 
-  '@hono/zod-openapi@1.2.1(hono@4.12.7)(zod@4.1.13)':
+  '@hono/zod-openapi@1.2.1(hono@4.12.9)(zod@4.1.13)':
     dependencies:
       '@asteasolutions/zod-to-openapi': 8.4.0(zod@4.1.13)
-      '@hono/zod-validator': 0.7.6(hono@4.12.7)(zod@4.1.13)
-      hono: 4.12.7
+      '@hono/zod-validator': 0.7.6(hono@4.12.9)(zod@4.1.13)
+      hono: 4.12.9
       openapi3-ts: 4.5.0
       zod: 4.1.13
 
-  '@hono/zod-validator@0.7.6(hono@4.12.7)(zod@4.1.13)':
+  '@hono/zod-validator@0.7.6(hono@4.12.9)(zod@4.1.13)':
     dependencies:
-      hono: 4.12.7
+      hono: 4.12.9
       zod: 4.1.13
 
   '@iarna/toml@2.2.5': {}
@@ -3083,7 +3083,7 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  hono@4.12.7: {}
+  hono@4.12.9: {}
 
   http-errors@1.7.3:
     dependencies:
