@@ -34,8 +34,8 @@ importers:
         specifier: ^3.7.1
         version: 3.7.1
       '@types/node':
-        specifier: ^25.2.0
-        version: 25.2.0
+        specifier: ^25.5.2
+        version: 25.5.2
       typescript:
         specifier: ^5.7.2
         version: 5.9.3
@@ -44,7 +44,7 @@ importers:
         version: 50.37.0(rollup@4.59.0)(typescript@5.9.3)
       vite:
         specifier: ^6.0.3
-        version: 6.4.1(@types/node@25.2.0)(tsx@4.21.0)(yaml@2.8.2)
+        version: 6.4.1(@types/node@25.5.2)(tsx@4.21.0)(yaml@2.8.2)
 
 packages:
 
@@ -845,8 +845,8 @@ packages:
   '@types/node@20.11.0':
     resolution: {integrity: sha512-o9bjXmDNcF7GbM4CNQpmi+TutCgap/K3w1JyKgxAjqx41zp9qlIAVFi0IhCNsJcXolEqLWhbFbEeL0PvYm4pcQ==}
 
-  '@types/node@25.2.0':
-    resolution: {integrity: sha512-DZ8VwRFUNzuqJ5khrvwMXHmvPe+zGayJhr2CDNiKB1WBE1ST8Djl00D0IC4vvNmHMdj6DlbYRIaFE7WHjlDl5w==}
+  '@types/node@25.5.2':
+    resolution: {integrity: sha512-tO4ZIRKNC+MDWV4qKVZe3Ql/woTnmHDr5JD8UI5hn2pwBrHEwOEMZK7WlNb5RKB6EoJ02gwmQS9OrjuFnZYdpg==}
 
   '@vercel/backends@0.0.51':
     resolution: {integrity: sha512-rGuyw79vubB9VyXhb5eMvm3uNe7D3avDHNm4zXbF99m54346KNOvRp0jJ39rBgh6I4wQ1SUal/vUYcs+nDI3DQ==}
@@ -1829,8 +1829,8 @@ packages:
   undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
-  undici-types@7.16.0:
-    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
+  undici-types@7.18.2:
+    resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
 
   undici@5.28.4:
     resolution: {integrity: sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==}
@@ -2441,9 +2441,9 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@25.2.0':
+  '@types/node@25.5.2':
     dependencies:
-      undici-types: 7.16.0
+      undici-types: 7.18.2
 
   '@vercel/backends@0.0.51(rollup@4.59.0)(typescript@5.9.3)':
     dependencies:
@@ -3616,7 +3616,7 @@ snapshots:
 
   undici-types@5.26.5: {}
 
-  undici-types@7.16.0: {}
+  undici-types@7.18.2: {}
 
   undici@5.28.4:
     dependencies:
@@ -3669,7 +3669,7 @@ snapshots:
       - supports-color
       - typescript
 
-  vite@6.4.1(@types/node@25.2.0)(tsx@4.21.0)(yaml@2.8.2):
+  vite@6.4.1(@types/node@25.5.2)(tsx@4.21.0)(yaml@2.8.2):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.3)
@@ -3678,7 +3678,7 @@ snapshots:
       rollup: 4.59.0
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 25.2.0
+      '@types/node': 25.5.2
       fsevents: 2.3.3
       tsx: 4.21.0
       yaml: 2.8.2
