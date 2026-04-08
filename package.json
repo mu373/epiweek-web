@@ -10,7 +10,7 @@
   "dependencies": {
     "@hono/swagger-ui": "^0.5.2",
     "@hono/zod-openapi": "^1.2.1",
-    "@mu373/epiweek": "^2.0.1",
+    "@mu373/epiweek": "^2.0.2",
     "hono": "^4.12.9",
     "luxon": "^3.7.2",
     "tsx": "^4.21.0"
