@@ -8,7 +8,7 @@
     "build:static": "tsx scripts/build-static.ts"
   },
   "dependencies": {
-    "@hono/swagger-ui": "^0.5.2",
+    "@hono/swagger-ui": "^0.6.1",
     "@hono/zod-openapi": "^1.2.1",
     "@mu373/epiweek": "^2.0.2",
     "hono": "^4.12.9",
