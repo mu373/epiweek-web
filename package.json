@@ -16,7 +16,7 @@
     "tsx": "^4.21.0"
   },
   "devDependencies": {
-    "@hono/vite-dev-server": "^0.25.0",
+    "@hono/vite-dev-server": "^0.25.3",
     "@types/luxon": "^3.7.1",
     "@types/node": "^25.5.2",
     "typescript": "^5.7.2",
