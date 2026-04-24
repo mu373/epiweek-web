@@ -3,3 +3,5 @@ dist/
 public/
 .vercel/
 *.log
+.env.local
+.env.*.local
