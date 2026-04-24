@@ -24,9 +24,11 @@ export const MonthCard: FC<MonthCardProps> = ({ month }) => {
           </tr>
         </thead>
         <tbody>
-          {month.weeks.map(week => (
+          {month.weeks.map((week, weekIndex) => {
+            const isDuplicateFromPrevMonth = weekIndex === 0 && !week.days[0].isCurrentMonth
+            return (
             <tr>
-              <td class="epiweek-cell py-2 text-center text-sm font-medium text-sky-700 cursor-pointer hover:bg-gray-100 transition-colors rounded" data-epiweek={week.epiweek}>
+              <td class={`epiweek-cell py-2 text-center text-sm font-medium cursor-pointer hover:bg-gray-100 transition-colors rounded text-sky-700${isDuplicateFromPrevMonth ? ' opacity-50' : ''}`} data-epiweek={week.epiweek}>
                 {week.week}
               </td>
               {week.days.map(day => (
@@ -35,7 +37,8 @@ export const MonthCard: FC<MonthCardProps> = ({ month }) => {
                 </td>
               ))}
             </tr>
-          ))}
+            )
+          })}
         </tbody>
       </table>
     </div>
