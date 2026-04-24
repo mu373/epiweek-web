@@ -27,6 +27,20 @@ export const ClientScript: FC = () => {
       if (current < 2100) navigateToYear(current + 1);
     });
 
+    document.addEventListener('keydown', (e) => {
+      if (!e.shiftKey || e.ctrlKey || e.metaKey || e.altKey) return;
+      const target = e.target;
+      if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable)) return;
+      const current = parseInt(yearSelect.value);
+      if (e.key === 'ArrowLeft' && current > 1900) {
+        e.preventDefault();
+        navigateToYear(current - 1);
+      } else if (e.key === 'ArrowRight' && current < 2100) {
+        e.preventDefault();
+        navigateToYear(current + 1);
+      }
+    });
+
     function copyToClipboard(text, element) {
       const textarea = document.createElement('textarea');
       textarea.value = text;
