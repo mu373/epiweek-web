@@ -8,19 +8,19 @@
     "build:static": "tsx scripts/build-static.ts"
   },
   "dependencies": {
-    "@hono/swagger-ui": "^0.5.2",
-    "@hono/zod-openapi": "^1.2.1",
+    "@hono/swagger-ui": "^0.6.1",
+    "@hono/zod-openapi": "^1.3.0",
     "@mu373/epiweek": "^2.0.2",
-    "hono": "^4.12.14",
+    "hono": "^4.12.15",
     "luxon": "^3.7.2",
     "tsx": "^4.21.0"
   },
   "devDependencies": {
-    "@hono/vite-dev-server": "^0.25.0",
+    "@hono/vite-dev-server": "^0.25.3",
     "@types/luxon": "^3.7.1",
-    "@types/node": "^25.5.2",
-    "typescript": "^5.7.2",
-    "vercel": "^50.37.0",
-    "vite": "^6.0.3"
+    "@types/node": "^25.6.0",
+    "typescript": "^5.9.3",
+    "vercel": "^50.44.0",
+    "vite": "^6.4.2"
   }
 }
